@@ -1,4 +1,5 @@
 #!/usr/bin/env bash
+# If PS: Invoke-WebRequest $myDownloadUrl -OutFile c:\file.ext 
 
 # Detect OS type
 # https://www.twitch.tv/ewo_on_sight 
@@ -13,9 +14,5 @@ elif [[ "$UNAME" == CYGWIN* || "$UNAME" == MINGW* ]] ; then
   VSCODEDIR="$APPDATA/Code/User";
 fi
 
-# If PS: Invoke-WebRequest $myDownloadUrl -OutFile c:\file.ext 
-
-#curl -s "https://github.com/riivanov/vscode-settings-install/blob/main/settings.json" -o $VSCODEDIR/settings.json
-#curl -s "https://github.com/riivanov/vscode-settings-install/blob/main/keybindings.json" -o $VSCODEDIR/keybindings.json
-
-echo $VSCODEDIR;
+curl -s "https://github.com/riivanov/vscode-settings-install/blob/main/settings.json" -o $VSCODEDIR/settings.json
+curl -s "https://github.com/riivanov/vscode-settings-install/blob/main/keybindings.json" -o $VSCODEDIR/keybindings.json
