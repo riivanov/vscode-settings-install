@@ -14,5 +14,5 @@ elif [[ "$UNAME" == CYGWIN* || "$UNAME" == MINGW* ]] ; then
   VSCODEDIR="$APPDATA/Code/User";
 fi
 
-curl -s "https://github.com/riivanov/vscode-settings-install/blob/main/settings.json" -o $VSCODEDIR/settings.json
-curl -s "https://github.com/riivanov/vscode-settings-install/blob/main/keybindings.json" -o $VSCODEDIR/keybindings.json
+curl -s "https://raw.githubusercontent.com/riivanov/vscode-settings-install/main/settings.json" -o $VSCODEDIR/settings.json
+curl -s "https://raw.githubusercontent.com/riivanov/vscode-settings-install/main/keybindings.json" -o $VSCODEDIR/keybindings.json
