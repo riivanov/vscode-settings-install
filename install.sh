@@ -13,9 +13,9 @@ elif [[ "$UNAME" == CYGWIN* || "$UNAME" == MINGW* ]] ; then
 fi
 
 # Download settings.json
-curl -s "https://raw.githubusercontent.com/riivanov/vscode-settings-install/main/settings.json" -o $VSCODEDIR/settings.json
+curl -s "https://raw.githubusercontent.com/riivanov/vscode-settings-install/main/settings.json" -o "$VSCODEDIR"/settings.json
 # Download keybindings.json
-curl -s "https://raw.githubusercontent.com/riivanov/vscode-settings-install/main/keybindings.json" -o $VSCODEDIR/keybindings.json
+curl -s "https://raw.githubusercontent.com/riivanov/vscode-settings-install/main/keybindings.json" -o "$VSCODEDIR"/keybindings.json
 
 # Download extension-list
 curl -s "https://raw.githubusercontent.com/riivanov/vscode-settings-install/main/extension-list.txt" |
