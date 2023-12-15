@@ -5,7 +5,7 @@
 UNAME=$(uname) 
 
 if [ "$UNAME" == "Linux" ] ; then
-  VSCODEDIR="$HOME/.config/Code\ -\ OSS/User";
+  VSCODEDIR="$HOME/.config/"Code\ -\ OSS"/User";
 elif [ "$UNAME" == "Darwin" ] ; then
   exit 2; #not supported
 elif [[ "$UNAME" == CYGWIN* || "$UNAME" == MINGW* ]] ; then
