@@ -1,0 +1,67 @@
+{
+  "[html]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[jsonc]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[scss]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "editor.suggest.insertMode": "replace"
+  },
+  "[typescript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "debug.inlineValues": "on",
+  "editor.codeActionsOnSave": {
+    "source.organizeImports": "explicit"
+  },
+  "editor.formatOnSave": true,
+  "editor.tabSize": 2,
+  "explorer.confirmDelete": false,
+  "explorer.confirmDragAndDrop": false,
+  "files.autoSave": "onFocusChange",
+  "files.exclude": {
+    "*.sublime-*": true,
+    "**/__pycache__": true,
+    "**/.DS_Store": true,
+    "**/.git": true,
+    "**/.pytest_cache": true,
+    "**/.vscode": true,
+    "**/node_modules": true,
+    "env*": true,
+    "node_modules": true,
+    "venv": true
+  },
+  "files.watcherExclude": {
+    "**/.git/objects/**": true,
+    "**/.git/subtree-cache/**": true,
+    "**/env/**": true,
+    "**/node_modules/**": true,
+    "**/venv/**": true,
+    "env-*": true
+  },
+  "javascript.updateImportsOnFileMove.enabled": "always",
+  "prettier.printWidth": 80,
+  "prettier.tabWidth": 2,
+  "scss.format.enable": true,
+  "scss.validate": true,
+  "search.exclude": {
+    "**/bower_components": true,
+    "**/env": true,
+    "**/node_modules": true,
+    "**/venv": true
+  },
+  "security.workspace.trust.untrustedFiles": "open",
+  "typescript.updateImportsOnFileMove.enabled": "always",
+  "window.menuBarVisibility": "toggle",
+  "window.zoomLevel": 3,
+  "workbench.colorTheme": "Monokai",
+  "workbench.editor.showTabs": "single",
+  "workbench.startupEditor": "none",
+  "workbench.activityBar.location": "hidden",
+  "vim.handleKeys": {
+    "<C-p>": false
+  },
+  "editor.inlineSuggest.suppressSuggestions": true
+}

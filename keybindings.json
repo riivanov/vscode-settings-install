@@ -1,0 +1,43 @@
+[
+  {
+    "key": "alt+r",
+    "command": "workbench.action.reloadWindow",
+    "when": "editorFocus"
+  },
+  {
+    "key": "ctrl+tab",
+    "command": "workbench.action.nextEditor"
+  },
+  {
+    "key": "ctrl+shift+tab",
+    "command": "workbench.action.previousEditor"
+  },
+  {
+    "key": "ctrl+b",
+    "command": "workbench.action.toggleSidebarVisibility"
+  },
+  {
+    "key": "ctrl+w",
+    "command": "workbench.action.closeActiveEditor"
+  },
+  {
+    "key": "alt+l",
+    "command": "list.collapseAll"
+  },
+  {
+    "key": "ctrl+shift+space",
+    "command": "editor.action.triggerParameterHints"
+  },
+  {
+    "key": "alt+s",
+    "command": "extension.switchStyle"
+  },
+  {
+    "key": "alt+t",
+    "command": "extension.switchTemplate"
+  },
+  {
+    "key": "alt+c",
+    "command": "extension.switchTs"
+  }
+]
