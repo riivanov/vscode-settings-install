@@ -17,4 +17,6 @@ curl -s "https://raw.githubusercontent.com/riivanov/vscode-settings-install/main
 # Download keybindings.json
 curl -s "https://raw.githubusercontent.com/riivanov/vscode-settings-install/main/keybindings.json" -o $VSCODEDIR/keybindings.json
 
-
+# Download extension-list
+curls -s "https://raw.githubusercontent.com/riivanov/vscode-settings-install/main/extension-list.txt" |
+xargs -n1 code --install-extension
