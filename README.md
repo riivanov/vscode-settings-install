@@ -1,1 +1,1 @@
-##### `curl https://github.com/riivanov/vscode-settings-install/install.sh | bash`
+##### `curl https://raw.githubusercontent.com/riivanov/vscode-settings-install/main/install.sh`
