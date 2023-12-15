@@ -1,0 +1,9 @@
+Angular.ng-template
+esbenp.prettier-vscode
+formulahendry.auto-rename-tag
+infinity1207.angular2-switcher
+oguhpereira.spotify-color-theme
+richie5um2.vscode-sort-json
+steoates.autoimport
+vscodevim.vim
+WakaTime.vscode-wakatime
