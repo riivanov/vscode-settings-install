@@ -1,9 +1,13 @@
 Angular.ng-template
+csharpier.csharpier-vscode
 esbenp.prettier-vscode
 formulahendry.auto-rename-tag
 infinity1207.angular2-switcher
+ms-dotnettools.csharp
+ms-dotnettools.vscode-dotnet-runtime
 oguhpereira.spotify-color-theme
 richie5um2.vscode-sort-json
 steoates.autoimport
+timonwong.shellcheck
 vscodevim.vim
 WakaTime.vscode-wakatime
