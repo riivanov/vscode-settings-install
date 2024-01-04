@@ -5,6 +5,7 @@
 UNAME=$(uname) 
 
 if [ "$UNAME" == "Linux" ] ; then
+# TODO(rivanov): This will not work for the ms version of code; since the directory is different``
   VSCODEDIR="$HOME/.config/"Code\ -\ OSS"/User";
 elif [ "$UNAME" == "Darwin" ] ; then
   exit 2; #not supported
