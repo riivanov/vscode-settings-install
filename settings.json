@@ -1,5 +1,11 @@
 {
+  "[csharp]": {
+    "editor.defaultFormatter": "csharpier.csharpier-vscode"
+  },
   "[html]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[json]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
   "[jsonc]": {
@@ -17,10 +23,12 @@
     "source.organizeImports": "explicit"
   },
   "editor.formatOnSave": true,
+  "editor.inlineSuggest.suppressSuggestions": true,
   "editor.tabSize": 2,
   "explorer.confirmDelete": false,
   "explorer.confirmDragAndDrop": false,
   "files.autoSave": "onFocusChange",
+  "files.eol": "\n",
   "files.exclude": {
     "*.sublime-*": true,
     "**/__pycache__": true,
@@ -42,6 +50,7 @@
     "env-*": true
   },
   "javascript.updateImportsOnFileMove.enabled": "always",
+  "prettier.endOfLine": "lf",
   "prettier.printWidth": 80,
   "prettier.tabWidth": 2,
   "scss.format.enable": true,
@@ -54,14 +63,13 @@
   },
   "security.workspace.trust.untrustedFiles": "open",
   "typescript.updateImportsOnFileMove.enabled": "always",
-  "window.menuBarVisibility": "toggle",
-  "window.zoomLevel": 3,
-  "workbench.colorTheme": "Monokai",
-  "workbench.editor.showTabs": "single",
-  "workbench.startupEditor": "none",
-  "workbench.activityBar.location": "hidden",
   "vim.handleKeys": {
     "<C-p>": false
   },
-  "editor.inlineSuggest.suppressSuggestions": true
+  "window.menuBarVisibility": "toggle",
+  "window.zoomLevel": 0,
+  "workbench.activityBar.location": "hidden",
+  "workbench.colorTheme": "Monokai",
+  "workbench.editor.showTabs": "single",
+  "workbench.startupEditor": "none"
 }
