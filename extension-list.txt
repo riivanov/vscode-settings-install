@@ -3,8 +3,10 @@ csharpier.csharpier-vscode
 esbenp.prettier-vscode
 formulahendry.auto-rename-tag
 infinity1207.angular2-switcher
+ms-dotnettools.csdevkit
 ms-dotnettools.csharp
 ms-dotnettools.vscode-dotnet-runtime
+ms-dotnettools.vscodeintellicode-csharp
 oguhpereira.spotify-color-theme
 richie5um2.vscode-sort-json
 steoates.autoimport
